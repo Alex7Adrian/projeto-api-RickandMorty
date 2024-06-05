@@ -47,7 +47,7 @@ const DadosPersonagens = async (characterId) => {
     gender.innerText = result.gender;
     origin.innerText = result.origin.name;
     location.innerText = result.location.name;
-    episode.innerText = result.episode;
+  
 
      // Adicionando o trecho de código fornecido para processar os episódios
      const episodioNUMEROS = result.episode.map(url => url.split('/').pop());
